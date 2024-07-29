@@ -83,9 +83,9 @@ if __name__ == "__main__":
     print('***Answer4****')
     print('Remove Dulipcate Element from List->', duplicate_removal([1, 1, 1, 1, 3, 3, 3, 3, ]))
 
-    print('***Answer5****')
-    user_id = get_integer_id("Enter your Integer id")
-    print(f"Your Id is: {user_id}")
+    # print('***Answer5****')
+    # user_id = get_integer_id("Enter your Integer id")
+    # print(f"Your Id is: {user_id}")
 
     print('***Answer8a****')
     div = smart_dev(div)
