@@ -34,9 +34,9 @@ def get_integer_id(prompt):
 
 # 8 Question: What are decorators in Python and how are they used?
 # Answer - add extra features on an exsitimg function by not changing it
+
+
 # Example 1 : div function always diving larger_valye/smaller_value
-
-
 def smart_dev(div_func):
     def inner_fun(first, second):
         if first < second:
@@ -52,7 +52,6 @@ def div(a, b):
 
 # Example 2 : password access to only admin
 user = {'name': 'Rezwan', "access_level": "admin"}
-
 import functools
 def secure_admin_password(get_admin_pass_funct):
     @functools.wraps(get_admin_pass_funct) # this does not allow get_admin_the_password name change to secure_admin_password
